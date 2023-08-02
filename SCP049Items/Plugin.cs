@@ -1,12 +1,13 @@
 ﻿using Exiled.API.Features;
+using Player = Exiled.Events.Handlers.Player;
 
 namespace SCP049Items
 {
     public sealed class Plugin : Plugin<Config>
     {
-        public override string Author => "Your name";
+        public override string Author => "DrBright";
 
-        public override string Name => "Exiled.Template";
+        public override string Name => "SCP049Items";
 
         public override string Prefix => Name;
 
