@@ -549,6 +549,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\DropCommand.cs" />
     <Compile Include="Commands\Items.cs" />
     <Compile Include="Commands\PickupCommand.cs" />
     <Compile Include="Commands\Take.cs" />

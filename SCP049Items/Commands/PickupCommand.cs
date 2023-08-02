@@ -23,7 +23,7 @@ namespace SCP049Items.Commands
             
             // Creating ray. Endpoint is in `hit`
             Physics.Raycast(new Ray(player.CameraTransform.position, player.CameraTransform.forward), 
-                out RaycastHit hit, 1);
+                out RaycastHit hit, 5);
 
             // Checking if an endpoint is a pickup
             if (!hit.transform.name.Contains("Pickup") && hit.transform.gameObject.layer != 9)
