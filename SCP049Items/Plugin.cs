@@ -1,5 +1,4 @@
 ﻿using Exiled.API.Features;
-using Player = Exiled.Events.Handlers.Player;
 
 namespace SCP049Items
 {

@@ -4,9 +4,7 @@ using Exiled.API.Features;
 using Exiled.API.Features.Items;
 using System.Collections.Generic;
 using System.Linq;
-using Exiled.API.Extensions;
 using PlayerRoles;
-using UnityEngine;
 
 namespace SCP049Items.Commands
 {

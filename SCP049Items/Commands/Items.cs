@@ -1,15 +1,10 @@
 using System;
 using CommandSystem;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using CommandSystem;
 using Exiled.API.Features;
 using Exiled.API.Features.Items;
-using Exiled.API.Features.Pickups;
-using InventorySystem.Items.Pickups;
 using PlayerRoles;
-using UnityEngine;
 
 namespace SCP049Items.Commands
 {
