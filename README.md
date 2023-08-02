@@ -1,5 +1,5 @@
 # SCP049Items
-Let's SCP-049 to pick up items.
+EXILED SCP:SL Plugin thath let's SCP-049 to pick up items.
 
 # Config
 ```
