@@ -53,7 +53,7 @@ namespace SCP049Items.Commands
 
             player.CurrentItem = items[index];
 
-            response = "You've taken " + player.CurrentItem.Type;
+            response = "You've taken " + player.CurrentItem.Type + "\nYou can drop your items via hotkey or .drop command";
             return true;
 
         }

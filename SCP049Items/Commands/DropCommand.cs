@@ -49,24 +49,16 @@ namespace SCP049Items.Commands
                 response = "You dropped the item out of your hands!";
                 return true;
             }
-            
-            player.SendConsoleMessage("1", "green");
 
             int index = Convert.ToInt32(arguments.Array[1]) - 1;
-            
-            player.SendConsoleMessage("2", "green");
             if (index > items.Count - 1)
             {
                 response = "There is no such item in your inventory!\nType .items to show your inventory.";
                 return false;
             }
-            
-            player.SendConsoleMessage("3", "green");
 
             response = "You've dropped " + items[index].Type;
             player.DropItem(items[index]);
-            
-            player.SendConsoleMessage("4", "green");
 
             return true;
 

@@ -39,7 +39,7 @@ namespace SCP049Items.Commands
                 response += "\n[" + i + "] " + items[i-1].Type;
             }
 
-            response += "\nYou can take your items via hotkeys or .take command";
+            response += "\nYou can take your items via hotkeys or .take command\nYou can drop your items via hotkey or .drop command";
             return true;
 
         }
