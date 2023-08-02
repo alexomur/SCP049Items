@@ -27,12 +27,19 @@ namespace SCP049Items.Commands
 
             List<Item> items = player.Items.ToList();
 
+            if (items.Count == 0)
+            {
+                response = "You have no items in your inventory!";
+                return true;
+            }
+
             response = "";
             for (int i = 1; i <= items.Count; i++)
             {
                 response += "\n[" + i + "] " + items[i-1].Type;
             }
 
+            response += "\nYou can take your items via hotkeys or .take command";
             return true;
 
         }

@@ -550,6 +550,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\Items.cs" />
+    <Compile Include="Commands\PickupCommand.cs" />
     <Compile Include="Commands\Take.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="EventHandlers.cs" />
