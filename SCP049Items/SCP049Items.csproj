@@ -554,7 +554,6 @@
     <Compile Include="Commands\PickupCommand.cs" />
     <Compile Include="Commands\Take.cs" />
     <Compile Include="Config.cs" />
-    <Compile Include="EventHandlers.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
