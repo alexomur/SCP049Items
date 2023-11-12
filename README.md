@@ -1,3 +1,5 @@
+# OUTDATED
+
 # SCP049Items
 EXILED SCP:SL Plugin that let's SCP-049 to pick up, use and drop items.
 
